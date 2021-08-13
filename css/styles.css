@@ -1,0 +1,141 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h1, h2, h3, h4, h4{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+}
+h2{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.5rem;
+    
+}
+p{
+    color: #1b1b1b;
+}
+
+/*Headings*/
+.big-heading{
+    font-family: 'Montserrat-Black';
+    size: 3.5rem;
+    line-height: 1.5;
+}
+#title{
+    background-image: url(../images/main-pic.jpg);
+    height: 650px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: black;
+    
+    /*color: rgb(97, 88, 88);*/
+}
+
+/*navigation bar*/
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    color: black;
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Montserrat-Light';
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 15%;
+
+}
+
+/*Title Image*/
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+/*Introduction*/
+#home-intro{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.our-story{
+    word-wrap: break-word;
+
+}
+.hrtext{
+    display:flex;
+    align-items:center;
+    padding-right: 5%;
+}
+.hrbefore,.hrafter{
+    flex:auto;
+}
+.hrcontent{
+    text-align:center;
+}
+.our-tea{
+    text-align: center;
+    padding: 5%;
+}
+.img-with-text img{
+    float: left;
+    height: 335px;
+    width: 60%;
+    padding-right: 5%;
+
+}
+.img-with-text p{
+    background-color: orange;
+}
+
+/*certifications*/
+.certifications {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.certifications img{
+    padding-top: 15%;
+    height: 100%;
+    width: 60%;
+}
+
+
+
+/*Footer section*/
+#footer{
+    background-color: rgb(5, 77, 5);
+    text-align: center;
+    padding: 5% 5%;
+}
+.footer-icons{
+    margin: 20px 10px;
+
+}
+
+@media (max-width: 1020px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
