@@ -5,7 +5,7 @@
 }
 
 .header{
-    min-height:  100vh;
+    min-height:  75vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images1/homepage1.jpg);
     background-position: center;
@@ -111,4 +111,130 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+
+    .teas table{
+        width:25%;
+    }
+}
+
+.story{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.story h1{
+    font-size: 56px;
+    color: #666633;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 25px 0 20px;
+}
+
+.story h1 span{
+    background:#fff; 
+    padding:0px 10px; 
+}
+
+.story h3{
+    font-size: 36px;
+}
+
+.story p{
+    font-size: 24px;
+}
+
+.teas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.teas h1{
+    font-size: 56px;
+    color: #666633;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 25px 0 20px;
+}
+
+.teas h1 span{
+    background:#fff; 
+    padding:0px 10px; 
+}
+
+.teas h3{
+    font-size: 36px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-container .item img{
+    width: 100%;
+}
+
+.item {
+    font-size: 24px;
+    text-align: center;
+  }
+
+.teas table{
+    padding-top: 100px;
+    width: 100%;
+}
+
+.teas table tr td img{
+    width:400px;
+    height: 400px;
+}
+
+.teas table tr td:last-child{
+    background-color: #ff9933;
+    padding: 50px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.certification{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.certification h1{
+    font-size: 56px;
+    color: #666633;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 25px 0 20px;
+}
+
+.certification h1 span{
+    background:#fff; 
+    padding:0px 10px; 
+}
+
+.certification h3{
+    font-size: 36px;
+}
+
+.certification table{
+    padding-top: 100px;
+}
+
+.certification table tr td img{
+    width:150px;
+    height: 150px;
 }
