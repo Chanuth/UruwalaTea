@@ -7,7 +7,7 @@
 .header{
     min-height:  75vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images1/homepage1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images1/homepage1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -77,44 +77,6 @@ nav img{
 
 nav .fa{
     display: none;
-}
-
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 40px;
-    }
-
-    .nav-links ul li{
-        display: block;
-    }
-
-    .nav-links{
-        position: absolute;
-        background: black;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-
-    nav .fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-
-    .nav-links ul{
-        padding: 30px;
-    }
-
-    .teas table{
-        width:25%;
-    }
 }
 
 .story{
@@ -197,7 +159,7 @@ nav .fa{
     height: 400px;
 }
 
-.teas table tr td:last-child{
+.teas table td:last-child{
     background-color: #ff9933;
     padding: 50px;
     font-size: 24px;
@@ -231,10 +193,155 @@ nav .fa{
 }
 
 .certification table{
-    padding-top: 100px;
+    padding-top: 25px;
 }
 
 .certification table tr td img{
     width:150px;
     height: 150px;
+}
+
+footer{
+    background-color: #2E420F;
+}
+
+footer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer .container{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 80px;
+    font-size: 24px;
+}
+
+footer .container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container i:hover{
+    width: 20%;
+}
+
+#copyright{
+    background-color: #2E420F;
+}
+
+.copyright{
+    text-align: center;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 40px;
+    }
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: black;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul{
+        padding: 30px;
+    }
+
+    .story{
+        padding-top: 25px;
+    }
+
+    .story h1{
+        font-size: 24px;
+    }
+
+    .story h3{
+        font-size: 12px;
+    }
+
+    .story p{
+        font-size: 13px;
+    }
+
+    .teas{
+    padding-top: 25px;
+    }
+
+    .teas h1{
+        font-size: 24px;
+    }
+
+    .teas h3{
+        font-size: 12px;
+    }
+
+    .teas p{
+        font-size: 13px;
+    }
+
+    .teas .grid-container .item{
+        font-size: 13px;
+    }
+
+    .certification{
+        padding-top: 25px;
+    }
+
+    .certification h1{
+        font-size: 24px;
+    }
+
+    .certification h3{
+        font-size: 12px;
+    }
+
+    .certification p{
+        font-size: 13px;
+    }
+
+    .certification table tr td img{
+        width: 75px;
+        height: 75px;
+    }
+
+    .teas table tr td:first-child img{
+        width: 150px;
+        height: 350px;
+    }
+
+    .teas table tr td:last-child{
+        padding: 10px;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    footer .container i{
+        padding: 10px;
+    }
+
+    footer .container{
+        font-size: 13px;
+    }
 }
